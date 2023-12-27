@@ -1,4 +1,3 @@
-GyroApp
 GyroApp is a mobile application developed for capturing and storing gyroscope data on Android devices. It leverages the Android Sensor API to monitor gyroscope sensor readings and persists the data using Room, a local SQLite database.
 
 Features
