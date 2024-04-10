@@ -23,7 +23,7 @@ Material Design Components: The app follows the principles of Material Design, i
 Getting Started
 To run the GyroApp project locally, follow these steps:
 
-Clone the repository: git clone https://github.com/infernotlc/GyroApp.git
+Clone the repository: git clone https://github.com/infernotlc/Life-Signal.git
 Open the project in Android Studio.
 Build and run the application on an Android device or emulator.
 Feel free to explore the codebase, contribute, and provide feedback!
