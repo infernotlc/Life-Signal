@@ -20,6 +20,7 @@ RecyclerView: GyroApp utilizes RecyclerView to efficiently display and manage li
 
 Material Design Components: The app follows the principles of Material Design, incorporating Material Design Components for a cohesive and visually appealing user experience.
 
+
 Getting Started
 To run the GyroApp project locally, follow these steps:
 
@@ -32,5 +33,9 @@ Future Enhancements
 GyroApp is an evolving project with plans for future enhancements, including:
 
 Integration of additional sensors (e.g., accelometer + gyroscope) for a more comprehensive data collection.
+
 We welcome contributions and collaboration to make GyroApp even better! If you encounter issues or have ideas for improvements, please open an issue or submit a pull request.
+
+![1711140757386](https://github.com/infernotlc/Life-Signal/assets/70065773/7d5cb5ab-ef9b-439b-a92a-1968242f7a57)
+![1711140728481](https://github.com/infernotlc/Life-Signal/assets/70065773/c0de78e2-0cd1-4a67-a8e0-1e7ae4039797)
 
