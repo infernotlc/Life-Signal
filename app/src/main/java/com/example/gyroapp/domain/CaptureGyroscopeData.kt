@@ -116,7 +116,7 @@ class CaptureGyroscopeData(
     }
 
     private suspend fun captureGyroscopeData(): GyroscopeData? {
-        val gyroscopeSensor: Sensor? = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER)
+        val gyroscopeSensor: Sensor? = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER)// or GYROSCOPE
 
         return if (gyroscopeSensor != null) {
             // Use a CompletableDeferred to wait for the gyroscope data
