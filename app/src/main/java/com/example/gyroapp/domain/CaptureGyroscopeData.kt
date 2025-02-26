@@ -64,10 +64,8 @@ class CaptureGyroscopeData(
         }
 
     private fun checkPermissions(): Boolean {
-        // Add your permission check logic here
-        // You may use ContextCompat.checkSelfPermission or any other method suitable for your use case
-        // Return true if permissions are granted, false otherwise
-        return true // Modify this according to your permission logic
+      
+        return true 
     }
 
     private fun requestPhoneStatePermission() {
