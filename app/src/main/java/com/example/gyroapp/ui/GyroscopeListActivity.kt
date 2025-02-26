@@ -78,7 +78,7 @@ class GyroscopeListActivity : AppCompatActivity() {
                 if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                     initializeActivity()
                 } else {
-                    // Permission denied. Handle accordingly (e.g., show a message to the user)
+                   Log.d("Permissions","Not granted")
                 }
             }
 
@@ -89,9 +89,7 @@ class GyroscopeListActivity : AppCompatActivity() {
     }
 
     override fun onDestroy() {
-        // Stop capturing gyroscope data when the activity is destroyed
-        // to prevent memory leaks
-
+        // Stop capturing gyroscope data when the activity is destroyed to prevent memory leaks
         val sensorManager = getSystemService(Context.SENSOR_SERVICE) as SensorManager
         val gyroscopeDataDao: GyroscopeDataDao = AppDatabase.getInstance(application).gyroscopeDataDao()
 
